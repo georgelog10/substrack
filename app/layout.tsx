@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "SubsTrack — Gestionează-ți subscripțiile",
-  description: "Platforma premium pentru managementul subscripțiilor personale și de business.",
+  title: "Abonat — Gestionează-ți abonamentele",
+  description: "Platforma gratuită pentru managementul abonamentelor digitale. 100% gratuit, fără card bancar.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

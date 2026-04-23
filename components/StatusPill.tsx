@@ -1,10 +1,10 @@
 import { SubscriptionStatus } from "@/lib/data";
 
 const CONFIG = {
-  active: { label: "Activ", color: "var(--green)", bg: "var(--green-bg)", border: "rgba(61,201,138,0.2)", dot: true },
-  trial: { label: "Perioadă trial", color: "var(--amber)", bg: "var(--amber-bg)", border: "rgba(232,154,60,0.2)", dot: true },
-  paused: { label: "Pausat", color: "var(--blue)", bg: "var(--blue-bg)", border: "rgba(91,141,239,0.2)", dot: false },
-  cancelled: { label: "Anulat", color: "var(--red)", bg: "var(--red-bg)", border: "rgba(224,82,82,0.2)", dot: false },
+  active:    { label: "Activ",          color: "#1A7A5A", bg: "rgba(26,122,90,0.08)",   border: "rgba(26,122,90,0.2)",   dot: true },
+  trial:     { label: "Perioadă trial", color: "#A0620A", bg: "rgba(160,98,10,0.08)",   border: "rgba(160,98,10,0.2)",   dot: true },
+  paused:    { label: "Pausat",         color: "#2563EB", bg: "rgba(37,99,235,0.07)",   border: "rgba(37,99,235,0.18)",  dot: false },
+  cancelled: { label: "Anulat",         color: "#C0392B", bg: "rgba(192,57,43,0.07)",   border: "rgba(192,57,43,0.18)",  dot: false },
 };
 
 export default function StatusPill({ status }: { status: SubscriptionStatus }) {
